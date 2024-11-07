@@ -36,9 +36,12 @@ git clone https://github.com/rhasspy/wyoming-satellite.git
 If you have the ReSpeaker 2Mic or 4Mic HAT, recompile and install the drivers (this will take really long time):
 
 ```sh
+I have been unable to get these drivers to work with a RPI4.  So instead clone this repo to install the drivers...
+DO NOT USE THESE DRIVERS
 cd wyoming-satellite/
 sudo bash etc/install-respeaker-drivers.sh
-I have been unable to get these drivers to work with a RPI4.  So instead clone this repo to install the drivers...
+
+INSTEAD USE THESE DRIVERS
 git clone https://github.com/HinTak/seeed-voicecard
 cd seeed-voicecard
 ./install.sh
