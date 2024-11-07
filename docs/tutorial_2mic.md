@@ -38,6 +38,11 @@ If you have the ReSpeaker 2Mic or 4Mic HAT, recompile and install the drivers (t
 ```sh
 cd wyoming-satellite/
 sudo bash etc/install-respeaker-drivers.sh
+I have been unable to get these drivers to work with a RPI4.  So instead clone this repo to install the drivers...
+git clone https://github.com/HinTak/seeed-voicecard
+cd seeed-voicecard
+./install.sh
+sudo reboot
 ```
 
 After install the drivers, you must reboot the satellite:
